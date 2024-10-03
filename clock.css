@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 9%, rgba(8,8,113,1) 29%, rgba(8,8,113,1) 39%, rgba(8,8,112,1) 53%, rgba(9,9,121,1) 68%, rgba(0,212,255,1) 100%);
+}
+.inline{
+display: inline;
+}
+
+.container{
+color:yellow;
+font-size: 30px;
+text-align: center;
+
+}
+#calender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    width: 240px;
+    margin-bottom: 30px;
+    padding: 20px;
+    position: relative;
+    left: 40%;
+}
+#clock{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    width: 240px;
+    padding: 20px;
+    position: relative;
+    left: 40%;
+}
+span{
+    margin: 5px;
+}
